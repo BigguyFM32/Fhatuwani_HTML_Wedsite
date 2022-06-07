@@ -1,0 +1,50 @@
+.box {
+  background-color: aqua;
+  margin-bottom: 15px;
+}
+.box1 {
+  background-color: skyblue;
+  width: 100%;
+  padding: 70px;
+  vertical-align: top;
+}
+.box2 {
+  width: 600px;
+  float: inline-start;
+  padding-left: 0;
+  margin-left: 140px;
+  vertical-align: top;
+}
+.box3 {
+  background-color: brown;
+}
+.box3 p {
+  color: white;
+}
+.container {
+  display: flex;
+}
+.container ul li {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 3px solid brown;
+  border-radius: 5px;
+  color: white;
+  background-color: brown;
+  padding: 8px;
+}
+.picture {
+  align-items: right;
+  margin-left: 617px;
+  height: 80px;
+  width: 100px;
+}
+.image-world {
+  align-items: center;
+  height: 440px;
+  width: 850px;
+  margin-left: 10px;
+}
